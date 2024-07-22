@@ -1,0 +1,11 @@
+touch name.txt
+mv name.txt rename.txt(mv is a dual command - it can be used to move files into directories and also to rename files)
+cp rename.txt copy.txt
+mkdir questions
+cd questions
+touch first.txt
+touch second.txt
+cd .. 
+cd -r questions questions_copy
+rm -rf questions
+rm -rf questions_copy
